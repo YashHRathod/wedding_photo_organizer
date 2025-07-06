@@ -5,7 +5,7 @@ from deepface import DeepFace
 import numpy as np
 from sklearn.metrics.pairwise import cosine_distances
 
-def load_and_process_images(folder, threshold=0.8):
+def load_and_process_images(folder, threshold=0.7):
     print("🚀 Starting face detection and grouping with similarity threshold...")
 
     detector = MTCNN()
