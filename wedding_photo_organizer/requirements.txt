@@ -1,5 +1,7 @@
-opencv-python
-mtcnn
+streamlit
 deepface
+opencv-python-headless
+mtcnn
 scikit-learn
 numpy
+pandas
