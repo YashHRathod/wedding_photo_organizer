@@ -1,7 +1,18 @@
-streamlit
-deepface
-opencv-python-headless
-mtcnn
-scikit-learn
-numpy
-pandas
+# streamlit
+# deepface
+# opencv-python-headless
+# mtcnn
+# scikit-learn
+# numpy
+# pandas
+
+tensorflow==2.10.1
+keras==2.10.0
+streamlit==1.33.0
+deepface==0.0.79
+opencv-python-headless==4.9.0.80
+mtcnn==0.1.1
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+protobuf==3.20.3
