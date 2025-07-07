@@ -25,9 +25,20 @@
 # numpy==1.26.4
 # pandas==2.2.2
 
-streamlit==1.17.0
-tensorflow==2.10.0
+# streamlit==1.17.0
+# tensorflow==2.10.0
+# deepface
+# mtcnn
+# scikit-learn
+# opencv-python
+# altair==4.2.2  
+# core libs
+tensorflow==2.10.0      # DeepFace‑compatible, needs protobuf <3.20
+streamlit==1.17.0       # compatible with TF 2.10.x
+altair==4.2.2           # required by Streamlit 1.17
+protobuf==3.19.6        # satisfies both TF and Streamlit
 deepface
 mtcnn
 scikit-learn
 opencv-python
+pandas                  # Altair & DeepFace need it
