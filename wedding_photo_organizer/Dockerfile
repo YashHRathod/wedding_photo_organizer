@@ -22,4 +22,4 @@ ENV STREAMLIT_TELEMETRY_EMAIL=""
 EXPOSE 8501
 
 # Run the Streamlit app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.enableCORS=false", "--server.headless=true"]
