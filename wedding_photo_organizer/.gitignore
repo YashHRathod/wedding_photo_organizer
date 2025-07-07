@@ -1,0 +1,28 @@
+# Ignore all jpg/jpeg/png files anywhere
+*.jpg
+*.jpeg
+*.png
+
+# Ignore image files inside any folder (e.g., raw_photos/, output/)
+**/*.jpg
+**/*.jpeg
+**/*.png
+
+# Ignore output folders
+output/
+__pycache__/
+*.pyc
+
+# Ignore Streamlit cache
+.streamlit/
+.cache/
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
