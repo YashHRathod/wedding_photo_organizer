@@ -5,8 +5,7 @@
 # scikit-learn
 # numpy
 # pandas
-
-tensorflow==2.10.1
+protobuf==3.19.6
 keras==2.10.0
 streamlit==1.33.0
 deepface==0.0.79
